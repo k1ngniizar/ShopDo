@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>Hello world!</Text>
+      <Text className="text-blue-500">Hello world!</Text>
     </View>
   );
 }
